@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "save": "cd .. && git add . && git commit -m add-code && git push",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node --watch index.js"
   },
