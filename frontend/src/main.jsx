@@ -7,7 +7,7 @@ import {
   gql,
   HttpLink,
 } from '@apollo/client'
-
+import './index.css';
 
 import { ApolloProvider } from '@apollo/client/react';
 
